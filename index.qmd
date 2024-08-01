@@ -1,0 +1,34 @@
+---
+title: "Welcome to Acme"
+---
+
+# Dedicated to Quarto programming
+
+Quarto is a next-generation evolution of R Markdown created by Posit. It offers several advantages for data scientists and R users:
+
+* [Multi-language support](https://quarto.org/docs/faq/#what-programming-languages-are-supported-in-quarto): Unlike R Markdown which is primarily focused on R, Quarto allows you to seamlessly integrate code from other languages like [Python](https://quarto.org/docs/computations/python.html) and [Julia](https://quarto.org/docs/computations/julia.html) alongside your R code in the same document.
+
+* [Extended Functionality](https://quarto.org/docs/blog/posts/2022-07-25-feature-extensions/#:~:text=Quarto%20Extensions%20are%20a%20powerful,%2C%20shortcodes%2C%20and%20custom%20formats.&text=July%2025%2C%202022-,Quarto%20Extensions%20are%20a%20powerful%20way%20to%20modify%20or%20extend,created%20and%20distributed%20by%20anyone.): Quarto unifies functionalities from various R Markdown ecosystem packages (like [bookdown](https://bookdown.org/home/), [distill](https://rstudio.github.io/distill/), [xaringan](https://cran.r-project.org/web/packages/xaringan/readme/README.html)) into a single system. This simplifies the process and offers a more consistent workflow.
+
+* [Existing R Markdown Compatibility](https://quarto.org/docs/faq/rmarkdown.html): Most existing [R Markdown](https://rmarkdown.rstudio.com/) files (.Rmd) can be rendered directly in Quarto without any modifications. This ensures a smooth transition for users familiar with R Markdown.
+
+* [Native ObservableJS support](https://quarto.org/docs/dashboards/interactivity/observable.html#:~:text=Quarto%20includes%20native%20support%20for,interactive%20data%20exploration%20and%20analysis.): Quarto offers built-in support for ObservableJS, a JavaScript library known for its reactive programming features. This is particularly useful for creating interactive data visualizations and explorations within your reports.
+
+* [Rich Output Formats](https://quarto.org/docs/output-formats/all-formats.html):  While R Markdown offered some output options, Quarto boasts a wider range of built-in output formats. You can generate reports in HTML, PDF, Word, presentations, and even websites, all from a single source document.
+
+* [Special Project Templates](https://quarto.org/docs/extensions/starter-templates.html): Quarto provides pre-built templates specifically designed for different project types like websites, books, and blogs. This streamlines the document creation process and ensures a professional layout.
+
+* [RStudio Integration](https://docs.posit.co/ide/user/ide/guide/documents/quarto-project.html): If you use RStudio, Quarto integrates seamlessly. You can edit your code and markdown side-by-side, and preview the rendered document within the viewer tab as you work on your project.
+
+Overall, Quarto in R provides a powerful and versatile framework for creating data analysis reports, reproducible research documents, interactive visualizations, and various other content tailored for scientific communication.
+
+<div class="btns">
+  <a class="overview" href="overview.html">Overview</a>
+  <a class="projects" href="project.html">Projects</a>
+</div>
+
+# Purpose
+
+This website's purpose is to demonstrate the efficiency of quarto when it comes to building websites.
+Here, you can find all the projects made by all the teams incorporated and their results, including the source codes.
+

@@ -1,0 +1,108 @@
+---
+title: "Get started in Quarto"
+format: html
+---
+
+
+# Installation
+
+Most of this part is done on the [official website](https://quarto.org/docs/get-started/) of Quarto.
+Please, refer to the website.
+
+* Download the appropriate QuartoCLI for your system on the website
+
+<img src="img/illustration_download_quartocli_win.png" alt="Illustration download QuartoCLI for windows" class="img_1">
+
+Here is an example of what you are supposed to get for a windows configuration.
+
+* Once the download completed, you need to run the downloaded file on your computer
+
+<img src="img/illustration_run_quartocli_win.png" alt="Illustration run QuartoCLI for windows"  class="img_2">
+
+Now you just have to follow the steps according to what you want yourself and finish it.
+Of course, we are continuing the example for a windows system.
+
+You might run into issues for this part. Please refer to the documentation on the [website](https://quarto.org/)
+
+<p class="special_p">That's it! You've successfully installed Quarto on your computer</p>
+
+Now let's start doing the interesting part. We want to write some code, do some nice presentation, documents, pdfs and even websites like this one.
+
+First things first, we need to choose our favorite development tool/editor or our mix of editor.
+
+# Editors
+
+<div class="illu-containers">
+<a href="https://code.visualstudio.com/download" class="illu-container">
+    <img src="img/illustration_vscode_logo.png" alt="Illustration Visual Studio Code Tool" class="img-illu vscode">
+    <p class="text">VSCode</p>
+</a>
+<a href="https://posit.co/download/rstudio-desktop/" class="illu-container">
+    <img src="img/illustration_rstudio_logo.png" alt="Illustration R Studio Code Tool" class="img-illu rstudio">
+    <p class="text">RStudio</p>
+</a>
+<a href="https://jupyter.org/" class="illu-container">
+    <img src="img/illustration_jupyter_logo.png" alt="Illustration Jupyter Code Tool" class="img-illu jupyter">
+    <p class="text">Jupyter</p>
+</a>
+<a href="https://neovim.io/" class="illu-container">
+    <img src="img/illustration_neovim_logo.png" alt="Illustration Neovim Code Tool" class="img-illu neovim">
+    <p class="text">Neovim</p>
+</a>
+</div>
+
+::: {.panel-tabset}
+
+## VSCode
+
+After installing Visual Studio Code, you need to install the quarto extension to be able to build a project with it.
+
+<img src="img/illustration_download_quarto_vscode.png" alt="Illustration download quarto extension for visual studio code"  class="img-illu-quarto vscode">
+
+On VSCode, things are pretty simple. To create a quarto document, you just need to give it the correct extension (`qmd`).
+
+Quarto can render multiple formats on Visual Studio Code (pdf, html, word etc.)
+In addition to that, it is possible in a Quarto file to render a Jupyter Notebook as a `.qmd` file or `.ipynb` file.
+
+We will later on, cover how specifically we [preview]() and [render]() files with Quarto on VS Code.
+
+## RStudio
+
+The minimal version of R Studio that has support to Quarto is `RStudio v2022.07`. Later versions of R Studio are also good candidates. We will not go through the [installation](https://cran.rstudio.com/) of RStudio itself. We assume you to understand how it is done.
+
+### Creating documents
+
+To create a Quarto document, you go to: `File:New file: Quarto Document`.
+And again for a Quarto Presentation, you select the appropriate button `Quarto Presentation`.
+
+<img src="img/illustration_create_new_quarto_doc_rstudio.png" alt="Illustration create new quarto document on R studio"  class="img-illu-quarto rstudio">
+
+We will, later on, cover how specifically we [preview]() and [render]() files with Quarto on RStudio.
+
+## Jupyter Lab
+
+Jupyter Lab is a little bit different because we use it to create `.ipynb` files. But Quarto is integrated in Jupyter Lab so that it is possible to write YAML options to knit a notebook.
+Here we do not need to create a `.qmd` file since it will knited to our desired format anyway
+
+The code, we are going to be kniting into a html format (It is also possible to knit it to other formats):
+<img src="img/illustration_demo_quarto_jupyterlab.png" alt="Illustration demo quarto on Jupyter lab"  class="img-illu-quarto demo-jupyterlab">
+
+This is the code used by Quarto site themselves.
+
+As you can see, we created a YAML header first like in any `.qmd` file and then we we wrote down markdown code befor our python chunk. We will, later on, cover how to preview and render those files on Juypterlab.
+
+## Neovim
+
+In Neovim, you can just create a new `.qmd` like in RStudio and the write basic quarto code.
+Here is what the UI should look like:
+
+<img src="img/illustration_demo_quarto_neovim.png" alt="Illustration demo quarto on Neovim"  class="img-illu-quarto demo-neovim">
+
+Neovim's case is a little bit special. Most of you all should not be very familiar with Neovim but if you want to understand better using quarto in Neovim, please visit [this page](https://quarto.org/docs/tools/neovim.html) on Quarto website
+
+:::
+
+<a class="guide" href="overview/guide.html">Guide</a>
+
+
+

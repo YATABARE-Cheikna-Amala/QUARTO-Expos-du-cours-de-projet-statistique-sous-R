@@ -1,0 +1,56 @@
+---
+title: "Quarto"
+---
+
+This project is dedicated to [Quarto](https://quarto.org/) programming. Here, we go over all the aspects of the [Quarto](https://quarto.org/) framework and all the possibilities it offers to R programmers, data scientists, data analysts and even web developpers.
+
+[Quarto](https://quarto.org/) brings out a new setup of tools that can be used in addition to Rmarkdown to build interesting, captivating applications, going from [documents](https://quarto.org/docs/guide/)(PDF, MS Word, PowerPoint, Typst and a lot of different formats), to [websites](https://quarto.org/docs/guide/) ([Quarto](https://quarto.org/) website itself is made with [Quarto](https://quarto.org/)), and [dashboards](https://quarto.org/docs/guide/) (Some examples will be given and we will go over a particular dashboard developed by ourselves), [books](https://quarto.org/docs/guide/) (Very known [R books](https://www.rstudio.com/resources/books/) have been made using [Quarto](https://quarto.org/)).
+
+[Quarto](https://quarto.org/) has a lot of specifications compared with [Rmarkdown](https://rmarkdown.rstudio.com/). Our main objective here is to make you understand how to program in [Quarto](https://quarto.org/) and build your own [documents](https://quarto.org/docs/guide/), [dashboards](https://quarto.org/docs/guide/), [websites](https://quarto.org/docs/guide/), [books](https://quarto.org/docs/guide/).
+
+# Prerequisites
+
+Some prerequisites are a good understanding of Rmarkdown and markdown generally. We will indeed go over some basics of Markdown syntax but we will not go over it deeply. A good comprehension of Rmarkdown or markdown is essential for Quarto programmation in this course.
+
+So here is a [link](https://rmarkdown.rstudio.com/) to a website where you can learn about Rmarkdown if you don't know anything about it.
+
+# Description of Quarto
+
+Quarto is a complex framework as it incorporates many different features of the modern programmation. We went over some aspects of Quarto but here is a more complete description of Quarto. You can download the file below.
+
+```{=html}
+<object data="pdf/PDF_Quarto.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="pdf/PDF_Quarto.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```
+
+# Beamer presentation
+
+```{=html}
+<object data="beamer/presentation_beamer_final.pdf" type="application/pdf" width="100%" height="100%" style="min-height:100vh;">
+    <p>It appears you don't have a PDF plugin for this browser.
+    No biggie... you can <a href="beamer/presentation_beamer_final.pdf">click here to
+    download the PDF file.</a></p>
+</object>
+```
+
+# Practice
+
+This website itself is a good pratice of Quarto Website programming. The source code of this website is available on [GitHub](https://github.com/Guerzoniansu/Quarto-Site). You can go over, reverse engineer it and get an understanding of how it is done.
+
+Another practice of Quarto will be presented below.
+We will go over the creation of documents, a dashboard, and a book.
+
+<a class="guide" href="projects/quarto/gallery.qmd">Gallery</a>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+project:
+  type: website
+
+website:
+  bread-crumbs: true
+  title: "Acme"
+  navbar:
+    logo: "./logo/logo.ico"
+    logo-alt: "Acme"
+    left:
+      - text: "Home"
+        href: index.qmd
+      - href: overview.qmd
+        text: "Overview"
+      - href: project.qmd
+        text: "Projects"
+      - href: about.qmd
+        text: "About"
+      - href: help.qmd
+        text: "Help"
+      - href: contact.qmd
+        text: "Contact"
+    tools:
+      - icon: facebook
+      - icon: twitter
+      - icon: instagram
+      - icon: github
+        menu:
+          - text: Source code
+            href: https://github.com/Guerzoniansu/Quarto
+          - text: Report a bug
+  sidebar:
+    - title: "Overview"
+      style: "docked"
+      background: light
+      contents:
+        - href: "overview.qmd"
+          text: Get started
+        - href: "overview/guide.qmd"
+          text: Guide
+    - title: "Projects"
+      style: "floating"
+      background: light
+      contents:
+        - href: "project.qmd"
+          text: Quarto
+        - href: "projects/gtsummary/gtsummary.qmd"
+          text: GTSummary
+        - href: "projects/rexcel/rexcel.qmd"
+          text: R to Excel
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    fontsize: 16px
+    css: "css/styles.css"
+    toc: true
+
+
+
